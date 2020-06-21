@@ -13,6 +13,8 @@ body {
 
   background-color: var(--bg);
   font: 400 18px Muli, sans-serif;
+  height: 100vh;
+  margin: 0;
 }
 
 body.dark {
@@ -25,6 +27,7 @@ body.dark {
   --hr: hsla(0, 0%, 100%, 0.2);
   --textColor: #e6e4e5;
   --typeWritterTextColor: #ff6700;
+  height: 100vh;
 }
 
 p {
@@ -44,6 +47,11 @@ button {
   border: none;
   padding: 0;
   outline: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* html {

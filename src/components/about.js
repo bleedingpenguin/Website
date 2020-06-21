@@ -20,8 +20,8 @@ export default () => (
           strings: [
             '<span style="color: var(--typeWritterTextColor)">A Software Engineer</span>',
             '<span style="color: var(--typeWritterTextColor)">An IOS Developer</span>',
-            '<span style="color: var(--typeWritterTextColor)">A Pink Floyd Fan</span>',
-            '<span style="color: var(--typeWritterTextColor)">A Web Developer</span>'
+            '<span style="color: var(--typeWritterTextColor)">A Web Developer</span>',
+            '<span style="color: var(--typeWritterTextColor)">A React Native Developer</span>'
           ],
           autoStart: true,
           loop: true,
