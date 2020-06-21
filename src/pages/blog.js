@@ -1,22 +1,25 @@
 import React from "react"
-import Particles from 'react-particles-js';
-import Typewriter from 'typewriter-effect';
+import Particles from "react-particles-js"
+import Typewriter from "typewriter-effect"
 
-import styles from './index.module.css';
+import styles from "./index.module.css"
 import Layout from "../components/layout"
 
-import particleOptions from '../../assets/particles.json';
-import { Link } from 'gatsby';
+import particleOptions from "../../assets/particles.json"
+import { Link } from "gatsby"
 
 const Blog = () => (
   <Layout>
     <div className={styles.outerContainer}>
       <div className={styles.container}>
-        <Link to='/'>
+        <Link to="/">
           <Typewriter
-            onInit={(typewriter) => {
-              typewriter.typeString('<span style="color: var(--typeWritterTextColor)">Under Construction, click to go back</span>')
-                .start();
+            onInit={typewriter => {
+              typewriter
+                .typeString(
+                  '<span style="color: var(--typeWritterTextColor)">Under Construction, click to go back</span>'
+                )
+                .start()
             }}
           />
         </Link>

@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import Footer from './footer'
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,9 +25,16 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: "100vh", alignItems: "center" }}>
-        <main style={{ flex: 1 }}>{children}</main>
-        <Footer />
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        height: "100vh",
+        alignItems: "center",
+      }}
+    >
+      <main style={{ flex: 1 }}>{children}</main>
+      <Footer />
     </div>
   )
 }

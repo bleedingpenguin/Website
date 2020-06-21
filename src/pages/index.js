@@ -1,13 +1,13 @@
 import React from "react"
-import Particles from 'react-particles-js';
+import Particles from "react-particles-js"
 
-import styles from './index.module.css';
+import styles from "./index.module.css"
 import Layout from "../components/layout"
-import About from '../components/about'
-import Links from '../components/links'
+import About from "../components/about"
+import Links from "../components/links"
 import SEO from "../components/seo"
 
-import particleOptions from '../../assets/particles.json';
+import particleOptions from "../../assets/particles.json"
 
 const IndexPage = () => (
   <Layout>
