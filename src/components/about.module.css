@@ -1,0 +1,25 @@
+.headline {
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.asdf {
+  background-color: rebeccapurple;
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.typewriterWrapper {
+  min-width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

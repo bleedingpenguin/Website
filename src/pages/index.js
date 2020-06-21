@@ -1,20 +1,27 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import Particles from 'react-particles-js';
 
+import styles from './index.module.css';
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
+import About from '../components/about'
+import Links from '../components/links'
 import SEO from "../components/seo"
+
+import particleOptions from '../../assets/particles.json';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>wwkwkwkw wkkwkw wkwk </p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className={styles.outerContainer}>
+      <div className={styles.container}>
+        <About />
+        <Links />
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Particles className={styles.particles} params={particleOptions} />
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>
 )
 

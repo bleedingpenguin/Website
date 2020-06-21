@@ -1,4 +1,50 @@
-html {
+/* body {
+  font: 400 18px Muli, sans-serif;
+} */
+
+body {
+  --bg: #f6f4f5;
+  --textNormal: #222;
+  --textTitle: #222;
+  --textLink: blue;
+  --hr: hsla(0, 0%, 0%, 0.2);
+  --textColor: #484848;
+  --typeWritterTextColor: #dc5032;
+
+  background-color: var(--bg);
+  font: 400 18px Muli, sans-serif;
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #121212;
+  --textNormal: rgba(255, 255, 255, 0.88);
+  --textTitle: white;
+  --textLink: yellow;
+  --hr: hsla(0, 0%, 100%, 0.2);
+  --textColor: #e6e4e5;
+  --typeWritterTextColor: #ff6700;
+}
+
+p {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  background: transparent;
+  color: transparent;
+  border: none;
+}
+
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -619,4 +665,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */
