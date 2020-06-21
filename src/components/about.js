@@ -18,12 +18,14 @@ export default () => (
         options={{
           wrapperClassName: 'asdf',
           strings: [
-            '<span style="color: var(--typeWritterTextColor)">I am a software engineer</span>',
-            '<span style="color: var(--typeWritterTextColor)">I am a iOS developer</span>'
+            '<span style="color: var(--typeWritterTextColor)">A Software Engineer</span>',
+            '<span style="color: var(--typeWritterTextColor)">An IOS Developer</span>',
+            '<span style="color: var(--typeWritterTextColor)">A Pink Floyd Fan</span>',
+            '<span style="color: var(--typeWritterTextColor)">A Web Developer</span>'
           ],
           autoStart: true,
           loop: true,
-          delay: 50,
+          delay: 60,
         }}
       />
     </div>
