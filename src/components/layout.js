@@ -33,7 +33,15 @@ const Layout = ({ children }) => {
         alignItems: "center",
       }}
     >
-      <main style={{ flex: 1 }}>{children}</main>
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+        <div style={{ flex: 1, }}>
+          <div style={{ backgroundColor: '#dc5032', width: 5, height: "100%", marginLeft: 22 }} />
+        </div>
+        <main>{children}</main>
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+          <div style={{ backgroundColor: '#dc5032', width: 5, height: "100%", alignSelf: 'flex-end', marginRight: 22 }} />
+        </div>
+      </div>
       <Footer />
     </div>
   )
